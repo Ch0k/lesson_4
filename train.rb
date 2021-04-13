@@ -10,9 +10,6 @@ class Train
     @@count += 1
     @@instances << self
     @wagon = []
-    #@quantity = quantity
-
-    #@type = type if (type == 'грузовой') || (type == 'пассажирский')
   end
 
   def add_wagon(wagon)
